@@ -1,0 +1,11 @@
+Inner Join:
+
+select Funcionaros.Cod_Funcionario, Funcionaros.Nome_Funcionario, Funcionaros.Salario_Funcionario from Funcionaros inner join Departamentos on Funcionaros.Cod_departamento = Departamentos.Cod_Departamento;
+
+Left Join:
+
+select Funcionaros.Cod_Funcionario, Funcionaros.Nome_Funcionario, Funcionaros.Salario_Funcionario from Funcionaros left join Departamentos on Funcionaros.Cod_departamento = Departamentos.Cod_Departamento;
+
+Right Join:
+
+select Funcionaros.Cod_Funcionario, Funcionaros.Nome_Funcionario, Funcionaros.Salario_Funcionario from Funcionaros right join Departamentos on Funcionaros.Cod_departamento = Departamentos.Cod_Departamento;
